@@ -57,3 +57,18 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .matb-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
 .matb-dropdown-click,.matb-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
 .matb-dropdown-hover:hover .matb-dropdown-content{display:block}
+own-click:hover{background-color:grey;color:#000}
+.matb-dropdown-hover:hover > .matb-button:first-child,.matb-dropdown-click:hover > .matb-button:first-child{background-color:#ccc;color:#000}
+.matb-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.matb-check,.matb-radio{width:24px;height:24px;position:relative;top:6px}
+.matb-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.matb-bar-block .matb-dropdown-hover,.matb-bar-block .matb-dropdown-click{width:100%}
+.matb-bar-block .matb-dropdown-hover .matb-dropdown-content,.matb-bar-block .matb-dropdown-click .matb-dropdown-content{min-width:100%}
+.matb-bar-block .matb-dropdown-hover .matb-button,.matb-bar-block .matb-dropdown-click .matb-button{width:100%;text-align:left;padding:8px 16px}
+.matb-main,#main{transition:margin-left .4s}
+.matb-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.matb-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.matb-bar{width:100%;overflow:hidden}.matb-center .matb-bar{display:inline-block;width:auto}
+.matb-bar .matb-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.matb-bar .matb-dropdown-hover,.matb-bar .matb-dropdown-click{position:static;float:left}
+.matb-bar .matb-button{white-space:normal}
