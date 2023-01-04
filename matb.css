@@ -72,3 +72,19 @@ own-click:hover{background-color:grey;color:#000}
 .matb-bar .matb-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
 .matb-bar .matb-dropdown-hover,.matb-bar .matb-dropdown-click{position:static;float:left}
 .matb-bar .matb-button{white-space:normal}
+display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.matb-bar-block.matb-center .matb-bar-item{text-align:center}.matb-block{display:block;width:100%}
+.matb-responsive{display:block;overflow-x:auto}
+.matb-container:after,.matb-container:before,.matb-panel:after,.matb-panel:before,.matb-row:after,.matb-row:before,.matb-row-padding:after,.matb-row-padding:before,
+.matb-cell-row:before,.matb-cell-row:after,.matb-clear:after,.matb-clear:before,.matb-bar:before,.matb-bar:after{content:"";display:table;clear:both}
+.matb-col,.matb-half,.matb-third,.matb-twothird,.matb-threequarter,.matb-quarter{float:left;width:100%}
+.matb-col.s1{width:8.33333%}.matb-col.s2{width:16.66666%}.matb-col.s3{width:24.99999%}.matb-col.s4{width:33.33333%}
+.matb-col.s5{width:41.66666%}.matb-col.s6{width:49.99999%}.matb-col.s7{width:58.33333%}.matb-col.s8{width:66.66666%}
+.matb-col.s9{width:74.99999%}.matb-col.s10{width:83.33333%}.matb-col.s11{width:91.66666%}.matb-col.s12{width:99.99999%}
+@media (min-width:601px){.matb-col.m1{width:8.33333%}.matb-col.m2{width:16.66666%}.matb-col.m3,.matb-quarter{width:24.99999%}.matb-col.m4,.matb-third{width:33.33333%}
+.matb-col.m5{width:41.66666%}.matb-col.m6,.matb-half{width:49.99999%}.matb-col.m7{width:58.33333%}.matb-col.m8,.matb-twothird{width:66.66666%}
+.matb-col.m9,.matb-threequarter{width:74.99999%}.matb-col.m10{width:83.33333%}.matb-col.m11{width:91.66666%}.matb-col.m12{width:99.99999%}}
+@media (min-width:993px){.matb-col.l1{width:8.33333%}.matb-col.l2{width:16.66666%}.matb-col.l3{width:24.99999%}.matb-col.l4{width:33.33333%}
+.matb-col.l5{width:41.66666%}.matb-col.l6{width:49.99999%}.matb-col.l7{width:58.33333%}.matb-col.l8{width:66.66666%}
+.matb-col.l9{width:74.99999%}.matb-col.l10{width:83.33333%}.matb-col.l11{width:91.66666%}.matb-col.l12{width:99.99999%}}
+.matb-rest{overflow:hidden}.matb-stretch{margin-left:-16px;margin-right:-16px}
