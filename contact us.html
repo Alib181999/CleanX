@@ -12,10 +12,10 @@
 <!-- Sidebar (hidden by default) -->
 <nav class="matb-sidebar matb-bar-block matb-card matb-top matb-xlarge matb-animate-left" style="display: none; z-index: 2; width: 40%; min-width: 300px;" id="mySidebar">
   <a href="javascript:void(0)" onclick="matb_close()" class="matb-bar-item matb-button">Close Menu</a>
-  <a href="Goals.html" onclick="matb_close()" class="matb-bar-item matb-button">Goals</a>
+  <a href="home.html" onclick="matb_close()" class="matb-bar-item matb-button">Home</a>
   <a href="personas.html" onclick="matb_close()" class="matb-bar-item matb-button">personas</a>
 <a href="Wire Frames.html" onclick="matb_close()" class="matb-bar-item matb-button">Wire Frames</a>
-  <a href="Critique.html" onclick="matb_close()" class="matb-bar-item matb-button">Critique</a>
+  <a href="contact us.html" onclick="matb_close()" class="matb-bar-item matb-button">Contact US</a>
 <a href="Frameworks and Technology.html" onclick="matb_close()" class="matb-bar-item matb-button">Frameworks and Technology</a>
 </nav>
 
@@ -26,3 +26,56 @@
     <div class="matb-center matb-padding-16">Clean X</div>
   </div>
 </div> 
+<div>
+
+    <form action="/action_page.php" method="post">
+      </form>
+    
+      <h1></h1>
+    <p>..</p>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="Address">Address</label>
+        <input type="text" id="Address" name="Address" placeholder="Your Adderess..">
+        <label for="City">City</label>
+        <input type="text" id="City" name="City" placeholder="Your City..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Pakistan">Pakistan</option>
+          <option value="canada">Canada</option>
+          <option value="United Kingdom">United Kingdom</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    </body>
+    </html>
+    
+    
+    <!-- End page content -->
+    </div>
+    
+    <script>
+    // Script to open and close sidebar
+    function matb_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+     
+    function matb_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    
+    
+    </body></html>
