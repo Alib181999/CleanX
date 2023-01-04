@@ -37,3 +37,23 @@ h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-
 .matb-serif{font-family:serif}.matb-sans-serif{font-family:sans-serif}.matb-cursive{font-family:cursive}.matb-monospace{font-family:monospace}
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.matb-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.matb-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.matb-table,.matb-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.matb-table-all{border:1px solid #ccc}
+.matb-bordered tr,.matb-table-all tr{border-bottom:1px solid #ddd}.matb-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.matb-table-all tr:nth-child(odd){background-color:#fff}.matb-table-all tr:nth-child(even){background-color:#f1f1f1}
+.matb-hoverable tbody tr:hover,.matb-ul.matb-hoverable li:hover{background-color:#ccc}.matb-centered tr th,.matb-centered tr td{text-align:center}
+.matb-table td,.matb-table th,.matb-table-all td,.matb-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.matb-table th:first-child,.matb-table td:first-child,.matb-table-all th:first-child,.matb-table-all td:first-child{padding-left:16px}
+.matb-btn,.matb-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.matb-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.matb-btn,.matb-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.matb-disabled,.matb-btn:disabled,.matb-button:disabled{cursor:not-allowed;opacity:0.3}.matb-disabled *,:disabled *{pointer-events:none}
+.matb-btn.matb-disabled:hover,.matb-btn:disabled:hover{box-shadow:none}
+.matb-badge,.matb-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.matb-badge{border-radius:50%}
+.matb-ul{list-style-type:none;padding:0;margin:0}.matb-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.matb-ul li:last-child{border-bottom:none}
+.matb-tooltip,.matb-display-container{position:relative}.matb-tooltip .matb-text{display:none}.matb-tooltip:hover .matb-text{display:inline-block}
+.matb-ripple:active{opacity:0.5}.matb-ripple{transition:opacity 0s}
+.matb-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.matb-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.matb-dropdown-click,.matb-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.matb-dropdown-hover:hover .matb-dropdown-content{display:block}
