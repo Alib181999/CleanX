@@ -98,3 +98,35 @@ margin-right:auto}.matb-content{max-width:980px}.matb-auto{max-width:1140px}
 .matb-hide-small{display:none!important}.matb-mobile{display:block;width:100%!important}.matb-bar-item.matb-mobile,.matb-dropdown-hover.matb-mobile,.matb-dropdown-click.matb-mobile{text-align:center}
 .matb-dropdown-hover.matb-mobile,.matb-dropdown-hover.matb-mobile .matb-btn,.matb-dropdown-hover.matb-mobile .matb-button,.matb-dropdown-click.matb-mobile,.matb-dropdown-click.matb-mobile .matb-btn,.matb-dropdown-click.matb-mobile .matb-button{width:100%}}
 @media (max-width:768px){.matb-modal-content{width:500px}.matb-modal{padding-top:50px}}
+nt{width:900px}.matb-hide-large{display:none!important}.matb-sidebar.matb-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.matb-hide-medium{display:none!important}}
+@media (max-width:992px){.matb-sidebar.matb-collapse{display:none}.matb-main{margin-left:0!important;margin-right:0!important}.matb-auto{max-width:100%}}
+.matb-top,.matb-bottom{position:fixed;width:100%;z-index:1}.matb-top{top:0}.matb-bottom{bottom:0}
+.matb-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.matb-display-topleft{position:absolute;left:0;top:0}.matb-display-topright{position:absolute;right:0;top:0}
+.matb-display-bottomleft{position:absolute;left:0;bottom:0}.matb-display-bottomright{position:absolute;right:0;bottom:0}
+.matb-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.matb-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.matb-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.matb-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.matb-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.matb-display-container:hover .matb-display-hover{display:block}.matb-display-container:hover span.matb-display-hover{display:inline-block}.matb-display-hover{display:none}
+.matb-display-position{position:absolute}-round,.matb-round-medium{border-radius:4px}.matb-round-large{border-radius:8px}.matb-round-xlarge{border-radius:16px}.matb-round-xxlarge{border-radius:32px}
+.matb-row-padding,.matb-row-padding>.matb-half,.matb-row-padding>.matb-third,.matb-row-padding>.matb-twothird,.matb-row-padding>.matb-threequarter,.matb-row-padding>.matb-quarter,.matb-row-padding>.matb-col{padding:0 8px}
+.matb-container,.matb-panel{padding:0.01em 16px}.matb-panel{margin-top:16px;margin-bottom:16px}
+.matb-code,.matb-codespan{font-family:Consolas,"courier new";font-size:16px}
+.matb-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.matb-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.matb-card,.matb-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.matb-card-4,.matb-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.matb-spin{animation:matb-spin 2s infinite linear}@keyframes matb-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.matb-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.matb-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.matb-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.matb-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.matb-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.matb-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.matb-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.matb-animate-input{transition:width 0.4s ease-in-out}.matb-animate-input:focus{width:100%!important}
+.matb-opacity,.matb-hover-opacity:hover{opacity:0.60}.matb-opacity-off,.matb-hover-opacity-off:hover{opacity:1}
+.matb-opacity-max{opacity:0.25}.matb-opacity-min{opacity:0.75}
