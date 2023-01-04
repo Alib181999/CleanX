@@ -1,3 +1,4 @@
+
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
 
@@ -13,25 +14,28 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .container {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
 
     margin-top: 50px;
   border-radius: 10px;
   background-color: #f2f2f2;
   padding: 30px;
 }
+
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .matb-serif{font-family:serif}.matb-sans-serif{font-family:sans-serif}.matb-cursive{font-family:cursive}.matb-monospace{font-family:monospace}
@@ -57,7 +61,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .matb-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
 .matb-dropdown-click,.matb-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
 .matb-dropdown-hover:hover .matb-dropdown-content{display:block}
-own-click:hover{background-color:grey;color:#000}
+.matb-dropdown-hover:first-child,.matb-dropdown-click:hover{background-color:grey;color:#000}
 .matb-dropdown-hover:hover > .matb-button:first-child,.matb-dropdown-click:hover > .matb-button:first-child{background-color:#ccc;color:#000}
 .matb-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
 .matb-check,.matb-radio{width:24px;height:24px;position:relative;top:6px}
@@ -72,7 +76,7 @@ own-click:hover{background-color:grey;color:#000}
 .matb-bar .matb-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
 .matb-bar .matb-dropdown-hover,.matb-bar .matb-dropdown-click{position:static;float:left}
 .matb-bar .matb-button{white-space:normal}
-display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.matb-bar-block .matb-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
 .matb-bar-block.matb-center .matb-bar-item{text-align:center}.matb-block{display:block;width:100%}
 .matb-responsive{display:block;overflow-x:auto}
 .matb-container:after,.matb-container:before,.matb-panel:after,.matb-panel:before,.matb-row:after,.matb-row:before,.matb-row-padding:after,.matb-row-padding:before,
@@ -88,7 +92,7 @@ display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;fl
 .matb-col.l5{width:41.66666%}.matb-col.l6{width:49.99999%}.matb-col.l7{width:58.33333%}.matb-col.l8{width:66.66666%}
 .matb-col.l9{width:74.99999%}.matb-col.l10{width:83.33333%}.matb-col.l11{width:91.66666%}.matb-col.l12{width:99.99999%}}
 .matb-rest{overflow:hidden}.matb-stretch{margin-left:-16px;margin-right:-16px}
-margin-right:auto}.matb-content{max-width:980px}.matb-auto{max-width:1140px}
+.matb-content,.matb-auto{margin-left:auto;margin-right:auto}.matb-content{max-width:980px}.matb-auto{max-width:1140px}
 .matb-cell-row{display:table;width:100%}.matb-cell{display:table-cell}
 .matb-cell-top{vertical-align:top}.matb-cell-middle{vertical-align:middle}.matb-cell-bottom{vertical-align:bottom}
 .matb-hide{display:none!important}.matb-show-block,.matb-show{display:block!important}.matb-show-inline-block{display:inline-block!important}
@@ -98,7 +102,7 @@ margin-right:auto}.matb-content{max-width:980px}.matb-auto{max-width:1140px}
 .matb-hide-small{display:none!important}.matb-mobile{display:block;width:100%!important}.matb-bar-item.matb-mobile,.matb-dropdown-hover.matb-mobile,.matb-dropdown-click.matb-mobile{text-align:center}
 .matb-dropdown-hover.matb-mobile,.matb-dropdown-hover.matb-mobile .matb-btn,.matb-dropdown-hover.matb-mobile .matb-button,.matb-dropdown-click.matb-mobile,.matb-dropdown-click.matb-mobile .matb-btn,.matb-dropdown-click.matb-mobile .matb-button{width:100%}}
 @media (max-width:768px){.matb-modal-content{width:500px}.matb-modal{padding-top:50px}}
-nt{width:900px}.matb-hide-large{display:none!important}.matb-sidebar.matb-collapse{display:block!important}}
+@media (min-width:993px){.matb-modal-content{width:900px}.matb-hide-large{display:none!important}.matb-sidebar.matb-collapse{display:block!important}}
 @media (max-width:992px) and (min-width:601px){.matb-hide-medium{display:none!important}}
 @media (max-width:992px){.matb-sidebar.matb-collapse{display:none}.matb-main{margin-left:0!important;margin-right:0!important}.matb-auto{max-width:100%}}
 .matb-top,.matb-bottom{position:fixed;width:100%;z-index:1}.matb-top{top:0}.matb-bottom{bottom:0}
@@ -111,7 +115,9 @@ nt{width:900px}.matb-hide-large{display:none!important}.matb-sidebar.matb-collap
 .matb-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 .matb-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
 .matb-display-container:hover .matb-display-hover{display:block}.matb-display-container:hover span.matb-display-hover{display:inline-block}.matb-display-hover{display:none}
-.matb-display-position{position:absolute}-round,.matb-round-medium{border-radius:4px}.matb-round-large{border-radius:8px}.matb-round-xlarge{border-radius:16px}.matb-round-xxlarge{border-radius:32px}
+.matb-display-position{position:absolute}
+.matb-circle{border-radius:50%}
+.matb-round-small{border-radius:2px}.matb-round,.matb-round-medium{border-radius:4px}.matb-round-large{border-radius:8px}.matb-round-xlarge{border-radius:16px}.matb-round-xxlarge{border-radius:32px}
 .matb-row-padding,.matb-row-padding>.matb-half,.matb-row-padding>.matb-third,.matb-row-padding>.matb-twothird,.matb-row-padding>.matb-threequarter,.matb-row-padding>.matb-quarter,.matb-row-padding>.matb-col{padding:0 8px}
 .matb-container,.matb-panel{padding:0.01em 16px}.matb-panel{margin-top:16px;margin-bottom:16px}
 .matb-code,.matb-codespan{font-family:Consolas,"courier new";font-size:16px}
@@ -218,7 +224,8 @@ nt{width:900px}.matb-hide-large{display:none!important}.matb-sidebar.matb-collap
 .matb-border-brown,.matb-hover-border-brown:hover{border-color:#795548!important}
 .matb-border-cyan,.matb-hover-border-cyan:hover{border-color:#00bcd4!important}
 .matb-border-blue-grey,.matb-hover-border-blue-grey:hover,.matb-border-blue-gray,.matb-hover-border-blue-gray:hover{border-color:#607d8b!important}
-.matb-border-green,.matb-hover-border-green:hover{border-color:#4CAF50!important}-green,.matb-hover-border-light-green:hover{border-color:#8bc34a!important}
+.matb-border-green,.matb-hover-border-green:hover{border-color:#4CAF50!important}
+.matb-border-light-green,.matb-hover-border-light-green:hover{border-color:#8bc34a!important}
 .matb-border-indigo,.matb-hover-border-indigo:hover{border-color:#3f51b5!important}
 .matb-border-khaki,.matb-hover-border-khaki:hover{border-color:#f0e68c!important}
 .matb-border-lime,.matb-hover-border-lime:hover{border-color:#cddc39!important}
