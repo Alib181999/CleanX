@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-  color: #666666;
+  color: #ffffff;
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -426,7 +426,7 @@ a:focus {
   height: 3px;
   left: calc(50% - 50px);
   bottom: 0;
-  background: linear-gradient(to left, #FFD662, #00539C, #FFD662);
+  background: linear-gradient(to left, #ffffff, #013602, #ffffff);
   border-radius: 100%;
 }
 
@@ -437,18 +437,18 @@ a:focus {
   height: 9px;
   left: calc(50% - 10px);
   bottom: -3px;
-  background: #00539C;
+  background: #042d01;
   border-radius: 5px;
 }
 
 .section-header p {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 .section-header h2 {
-  color: #00539C;
-  font-size: 50px;
+  color: #ffffff;
+  font-size: 20px;
   font-weight: 100;
 }
 
@@ -459,7 +459,7 @@ a:focus {
 .section-header.left::before {
   width: 60px;
   left: 0;
-  background: linear-gradient(to left, #FFD662, #00539C, #00539C);
+  background: linear-gradient(to left, #ffffff, #0a4201, #ffffff);
   border-radius: 0 100% 100% 0;
 }
 
@@ -485,7 +485,7 @@ a:focus {
 
 .about .about-text h2 {
   position: relative;
-  color: #00539C;
+  color: #ffffff;
   font-size: 50px;
   margin-bottom: 15px;
 }
@@ -551,13 +551,16 @@ a:focus {
   padding: 25px 15px 15px 15px;
   font-size: 20px;
   font-weight: 300;
-  color: #00539C;
+  color: #000000;
+  font-weight: bold;
 }
 
 .service .service-item p {
   margin: 0;
   padding: 0 25px 25px 25px;
   font-size: 16px;
+  color: #000000;
+  
 }
 
 .service .service-item a.btn {
@@ -1087,6 +1090,7 @@ a:focus {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0;
+  color: #000000;
 }
 
 .testimonial .owl-nav,
@@ -1745,6 +1749,7 @@ a:focus {
 .footer .footer-form h2{
   position: relative;
   margin-bottom: 30px;
+  text-align:center ;
   font-size: 20px;
   font-weight: 400;
   color: #ffffff;
