@@ -233,7 +233,7 @@ a:focus {
   padding: 12px 20px 10px 20px;
   font-size: 13px;
   text-transform: uppercase;
-  color: #00539C;
+  color: #0d0d0d;
   border: none;
   border-radius: 5px;
   background: #ffffff;
@@ -287,7 +287,7 @@ a:focus {
   padding: 15px 30px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #00539C;
+  color: #030303;
   border: none;
   border-radius: 5px;
   background: #ffffff;
@@ -1068,7 +1068,7 @@ a:focus {
   margin-top: -90px;
   padding: 100px 25px 25px 25px;
   text-align: center;
-  background: #FFD662;
+  background: hsl(0, 0%, 100%);
   border-radius: 5px;
 }
 
@@ -1734,7 +1734,7 @@ a:focus {
   padding-top: 90px;
   background: linear-gradient(rgb(126, 199, 159), rgba(6, 119, 55, 0.9),rgb(0, 46, 9));
   color: #ffffff;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .footer .footer-contact,
@@ -1742,6 +1742,7 @@ a:focus {
 .footer .footer-form {
   position: relative;
   margin-bottom: 45px;
+  text-align: center;
 }
 
 .footer .footer-contact h2,
@@ -1802,6 +1803,7 @@ a:focus {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
+  
 }
 
 .footer .footer-link a:hover {
@@ -1866,6 +1868,7 @@ a:focus {
 .footer .copyright {
   padding: 30px 15px;
   border-top: 1px solid rgba(255, 255, 255, .1);
+  text-align: center;
 }
 
 .footer .copyright p {
@@ -1874,7 +1877,7 @@ a:focus {
 }
 
 .footer .copyright .col-md-6:last-child p {
-  text-align: right;
+  text-align: centerS;
 }
 
 .footer .copyright p a {
